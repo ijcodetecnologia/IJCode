@@ -1,0 +1,94 @@
+.swipContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.depoimentos {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.depoimentos h2 {
+  font-size: 60px;
+}
+
+.title{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.imgBox {
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+.mySwiper{
+  padding: 0px 150px 0px 80px;
+}
+
+.swipItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  padding: 30px 20px 50px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #6460e642;
+  box-shadow: 2px 2px 4px 1px rgba(10, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.swipItem img{
+  width: 100%;
+}
+
+.swipItem h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #ad31c9;
+}
+
+.swipItem h3 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6560e6;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1250px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+  .imgBox {
+    justify-self: flex-start;
+  }
+  .depoimentos {
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .mySwiper{
+    /* padding: 50px x; */
+  }
+  
+  .swipItem {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .swipItem {
+    
+  }
+}

@@ -1,0 +1,23 @@
+/* .main {
+  margin: 0 auto;
+  max-width: 1920px;
+} */
+
+.whats {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whats img {
+  height: 80px;
+  width: 80px;
+  z-index: 10;
+}
+
+.whats:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+

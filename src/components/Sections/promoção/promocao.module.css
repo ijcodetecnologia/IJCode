@@ -1,0 +1,125 @@
+.promocao {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+  padding: 0px 200px;
+}
+
+.imgpromocao {
+  padding: 100px;
+  width: 100%;
+  background-image: url('../../../../public/img/shape-gradienta2.webp');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.imgpromocao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgpromocao img {
+  width: 95%;
+  height: 80%;
+  border-radius: 20px;
+}
+
+.ulpromocao li {
+  display: flex;
+  gap: 5px;
+}
+
+.textopromocao {
+  padding-right: 100px;
+}
+
+.textopromocao h2 {
+  font-size: 50px;
+  color: #6560e6;
+}
+
+.ppromocao {
+  font-size: 20px;
+}
+
+.textopromocao h3 {
+  padding-top: 20px;
+  font-size: 23px;
+  color: #ad31c9;
+}
+
+.passospromocao {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1900px)  {
+  .promocao {
+    padding: 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .promocao {
+    padding: 0px 20px;
+  }
+  .imgpromocao {
+    padding: 30px;
+    width: 100%;
+  }
+  .imgpromocao img {
+    width: 80%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .promocao {
+    display: grid;
+  }
+  .imgpromocao {
+   display: none;
+  }
+  .textopromocao {
+    padding: 0px 300px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .textopromocao {
+    padding: 0px 200px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .textopromocao {
+    padding: 0px 100px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .textopromocao {
+    padding: 0px 50px;
+  }
+
+  .textopromocao h2 {
+    font-size: 30px;
+  }
+
+  .textopromocao p {
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .textopromocao {
+    padding: 0px 20px;
+  }
+  .textopromocao p {
+    font-size: 13px;
+  }
+
+}

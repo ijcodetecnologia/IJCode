@@ -1,0 +1,142 @@
+.banner {
+  background-image: url('../../../../public/img/banner.svg');
+  background-position: bottom;
+  background-size: cover;
+  padding: 5% 10% 30%;
+  z-index: 1;
+}
+
+.maxWidth{
+  margin: 0 auto;
+  max-width: 1920px;  
+  color: rgb(255, 255, 255);
+}
+
+.textobanner{
+  width: 40%;
+}
+
+.textobanner h1 {
+  font-size: 180px;
+  font-weight: bold;
+}
+
+.textobanner p {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.textobanner ul {
+  padding-top: 30px;
+}
+
+.iconbanner img{
+  width: 30px;
+  padding-right: 8px;
+}
+
+.iconbanner li{
+  font-size: 35px;
+}
+
+/************************** ANIMAÇÃO **************************/
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid #fff;
+  animation: typing 3s steps(40, end), blink-caret .75s step-end infinite, erasing 20s steps(40, start) 6s infinite;
+}
+
+@keyframes typing {
+  from {
+      width: 0;
+  }
+  to {
+      width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #fff;
+  }
+}
+
+@keyframes erasing {
+  0%,
+  100% {
+      width: 100%;
+  }
+  50% {
+      width: 0;
+  }
+}
+
+
+/************************** RESPONSIVE **************************/
+@media (max-width: 1800px) {
+  .banner {
+    padding: 5% 10% 25%;
+  }
+  .textobanner h1 {
+    font-size: 110px;
+  }
+  .textobanner p {
+    font-size: 45px;
+  }
+  .iconbanner li{
+    font-size: 20px;
+  }
+  .iconbanner img{
+    width: 20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .banner {
+    background-image: url('../../../../public/img/banner.svg') !important;
+    padding: 5% 10% 25%;
+  }
+  .textobanner h1 {
+    font-size: 110px;
+  }
+  .textobanner p {
+    font-size: 55px;
+  }
+  .iconbanner li{
+    font-size: 20px;
+  }
+  .iconbanner img{
+    width: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .textobanner{
+    width: 80%;
+  }
+  .textobanner h1 {
+    font-size: 80px;
+  }
+  .textobanner p {
+    font-size: 35px;
+  }
+  .iconbanner li{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .banner {
+    background-image: url('../../../../public/img/banner3.svg') !important;
+    padding: 5% 10% 35%;
+  }
+  .textobanner{
+    width: 100%;
+  }
+}
+
+
