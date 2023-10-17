@@ -24,7 +24,7 @@ const formulario = () => {
               <ul className={styles.ulform}>
                 <li>Instagram: @ij.code</li>
                 <li>ijcode.oficial@gmail.com</li>
-                <li>whats: (11)96650-2947</li>
+                <li>whats: (11) 93215-8698</li>
               </ul>
 
               <p className={styles.pformcont}>
