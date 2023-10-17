@@ -15,11 +15,10 @@ const MenuMobile = () => {
     };
 
     document.addEventListener("mousedown", handleClickOutside);
-    
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div ref={menuRef} className={styles.container}>
       <button
         className={styles.mobileMenuIcon}
         onClick={() => setMobileMenu(!mobileMenu)}
@@ -29,7 +28,6 @@ const MenuMobile = () => {
         className={`${styles.listMobile}  ${
           mobileMenu ? styles.listMobileActive : styles.listMobile
         }`}
-        ref={menuRef}
       >
         <Link
           to="home"
