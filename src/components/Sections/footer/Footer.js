@@ -29,7 +29,7 @@ const Footer = () => {
       </ul>
 
       <div className={styles.copy}>
-        <p>Copyright© - Todos os direiros reservados.</p>
+        <p>©Copyright IJCode - Todos os direiros reservados.</p>
       </div>
     </div>
   );
