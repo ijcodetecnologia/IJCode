@@ -15,7 +15,9 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Nunito:wght@200;400&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="./img/favicon.ico" type="image/x-icon"></link>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon"></link>
+        <link rel="icon" href="./app/favicon.ico" type="image/x-icon"></link>
+        <title>IJCode - Desenvolvemos seu site!</title>
       </head>
       <body>{children}</body>
     </html>
