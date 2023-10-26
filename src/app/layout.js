@@ -17,7 +17,6 @@ export default function RootLayout({ children }) {
         />
         <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon"></link>
         <link rel="icon" href="./app/favicon.ico" type="image/x-icon"></link>
-        <title>IJCode - Tecnologia</title>
       </head>
       <body>{children}</body>
     </html>

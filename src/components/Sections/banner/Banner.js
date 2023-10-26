@@ -12,11 +12,11 @@ const Banner = () => {
           <ul className={styles.iconbanner}>
             <li>
               <img src="./img/icons/ok.svg" alt="" />
-              Inovação e responsividade;
+              Desenvolvimento de Sites;
             </li>
             <li>
               <img src="./img/icons/ok.svg" alt="" />
-              Agilidade e responsabilidade;
+              Inovação e Agilidade;
             </li>
             <li>
               <img src="./img/icons/ok.svg" alt="" />
