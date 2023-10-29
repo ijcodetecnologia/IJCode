@@ -11,8 +11,7 @@ const Slide = () => {
       <h2>Projetos</h2>
 
       <p className={styles.pProjetos}>
-        Veja abaixo os ultimos projetos que trabalhamos, clique na imagem para
-        ver o site completo.
+        Veja abaixo os ultimos projetos que trabalhamos, clique no botão ver site para ver o site na web.
       </p>
 
       <Carousel data-bs-theme="dark" className="container">
