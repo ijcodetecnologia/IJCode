@@ -1,11 +1,10 @@
-'use client';
-import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.min.css';
+"use client";
+import Carousel from "react-bootstrap/Carousel";
 
 const Slide = () => {
   return (
-    <Carousel data-bs-theme="dark" className='container'>
-      <Carousel.Item className='pb-5'>
+    <Carousel data-bs-theme="dark" className="container">
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/brilho.svg"
@@ -13,7 +12,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/cqc.svg"
@@ -21,7 +20,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/maelu.svg"
@@ -29,7 +28,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/coco.svg"
@@ -37,7 +36,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/iba.svg"
@@ -45,7 +44,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/deefa.svg"
@@ -53,7 +52,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/port.svg"
@@ -61,7 +60,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/jrx.svg"
@@ -69,7 +68,7 @@ const Slide = () => {
         />
       </Carousel.Item>
 
-      <Carousel.Item className='pb-5'>
+      <Carousel.Item className="pb-5">
         <img
           className="d-block w-100"
           src="./portifolio/casa.svg"
