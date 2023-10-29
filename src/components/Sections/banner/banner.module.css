@@ -56,15 +56,6 @@
   }
 }
 
-@keyframes blink-caret {
-  from, to {
-      border-color: transparent;
-  }
-  50% {
-      border-color: #fff;
-  }
-}
-
 @keyframes erasing {
   0%,
   100% {
@@ -74,6 +65,17 @@
       width: 0;
   }
 }
+
+@keyframes blink-caret {
+  from, to {
+      border-color: transparent;
+  }
+  50% {
+      border-color: #fff;
+  }
+}
+
+
 
 
 /************************** RESPONSIVE **************************/

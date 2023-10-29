@@ -6,7 +6,9 @@ import Footer from '@/components/Sections/footer/Footer';
 import Header from '@/components/Sections/header/Header';
 import Promocao from '@/components/Sections/promoção/Promocao';
 import Vantagens from '@/components/Sections/vantagens/Vantagens';
+import Slide from '../components/Sections/projetos.slide/Slide';
 import './page.css';
+
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Vantagens />
+      <Slide />
       <Promocao />
       <Beneficios />
       {/* <Depoimentos /> */}
@@ -21,11 +24,13 @@ export default function Home() {
       <Footer />
 
       <div className="whats">
-        <a href="https://api.whatsapp.com/send?phone=5511932158698" target='blank'>
+        <a
+          href="https://api.whatsapp.com/send?phone=5511932158698"
+          target="blank"
+        >
           <img src="./img/WhatsApp.svg.webp" alt="" />
         </a>
       </div>
     </main>
   );
 }
-
