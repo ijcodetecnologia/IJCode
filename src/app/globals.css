@@ -6,7 +6,16 @@
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+}
+
+p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,4 +30,11 @@ a, ul , li, button {
   list-style: none;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
+
 }
+
+button a{
+  color: #000 !important;
+}
+
+
