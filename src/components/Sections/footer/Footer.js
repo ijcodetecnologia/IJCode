@@ -29,7 +29,7 @@ const Footer = () => {
       </ul>
 
       <div className={styles.copy}>
-        <p>©Copyright IJCode - Todos os direiros reservados.</p>
+        <p>©Copyright IJCode - By <a href="https://www.linkedin.com/in/isadoravanderlan/">Isadora Vanderlan</a> and <a href="https://www.linkedin.com/in/julio-cesar-junior/">Julio Cesar</a> </p>
       </div>
     </div>
   );
