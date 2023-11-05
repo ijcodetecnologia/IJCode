@@ -32,6 +32,17 @@ const Navbar = () => {
               Vantagens
             </Link>
           </li>
+          <Link
+          to="projetos"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          href=""
+          onClick={() => setMobileMenu(!mobileMenu)}
+        >
+          Projetos
+        </Link>
           <li>
             <Link
               to="beneficios"

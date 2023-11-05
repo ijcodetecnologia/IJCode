@@ -52,6 +52,17 @@ const MenuMobile = () => {
           Vantagens
         </Link>
         <Link
+          to="projetos"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+          href=""
+          onClick={() => setMobileMenu(!mobileMenu)}
+        >
+          Projetos
+        </Link>
+        <Link
           to="beneficios"
           spy={true}
           smooth={true}

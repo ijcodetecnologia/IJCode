@@ -19,11 +19,11 @@
 .mobileMenuIcon::after{
   content: '';
   display: block;
-  width: 1.2rem;
+  width: 1.8rem;
   height: 2px;
   border-radius: 2px;
-  background: #932574;
-  box-shadow: 0 6px #932574, 0 -6px #932574;
+  background: #ad31c9;
+  box-shadow: 0 6px #ad31c9, 0 -6px #ad31c9;
   transition: 0.2s;
 }
 

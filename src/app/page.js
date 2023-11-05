@@ -1,3 +1,4 @@
+import './page.css';
 import Banner from '@/components/Sections/banner/Banner';
 import Beneficios from '@/components/Sections/beneficios/Beneficios';
 import Depoimentos from '@/components/Sections/depoimentos/Depoimentos';
@@ -6,9 +7,7 @@ import Footer from '@/components/Sections/footer/Footer';
 import Header from '@/components/Sections/header/Header';
 import Promocao from '@/components/Sections/promoção/Promocao';
 import Vantagens from '@/components/Sections/vantagens/Vantagens';
-import Slide from '../components/Sections/projetos.slide/Slide';
-import './page.css';
-
+import Projetos from '@/components/Sections/projetos/Projetos';
 
 export default function Home() {
   return (
@@ -16,7 +15,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Vantagens />
-      <Slide />
+      <Projetos />
       <Promocao />
       <Beneficios />
       {/* <Depoimentos /> */}

@@ -1,9 +1,9 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./globals.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './globals.css';
 
 export const metadata = {
-  title: "IJCode",
-  description: "Desenvolvimento de Sites",
+  title: 'IJCode',
+  description: 'Desenvolvimento de Sites',
 };
 
 export default function RootLayout({ children }) {
@@ -22,6 +22,12 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
         ></link>
         <link rel="icon" href="./app/favicon.ico" type="image/x-icon"></link>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          charset="UTF-8"
+          href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+        />
       </head>
       <body>{children}</body>
     </html>

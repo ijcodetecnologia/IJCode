@@ -7,12 +7,12 @@
   position: fixed;
   bottom: 20px;
   right: 20px;
+  z-index: 2;
 }
 
 .whats img {
   height: 80px;
   width: 80px;
-  z-index: 10;
 }
 
 .whats:hover {

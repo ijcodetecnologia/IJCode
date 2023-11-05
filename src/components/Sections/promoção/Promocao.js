@@ -24,15 +24,15 @@ const Promocao = () => {
           <h3>Detalhes da Promoção:</h3>
           <ul className={styles.ulpromocao}>
             <li>
-              <p className={styles.passospromocao}>Passo 1:</p>
+              <p className={styles.passospromocao}>1:</p>
               <p>Indique um amigo ou familiar para usar nossos serviços.</p>
             </li>
             <li>
-              <p className={styles.passospromocao}>Passo 2:</p>
+              <p className={styles.passospromocao}>2:</p>
               <p>Se seu amigo/familiar contratar nossos serviços.</p>
             </li>
             <li>
-              <p className={styles.passospromocao}>Passo 3:</p>
+              <p className={styles.passospromocao}>3:</p>
               <p>Você ganha 10% do valor.</p>
             </li>
           </ul>
