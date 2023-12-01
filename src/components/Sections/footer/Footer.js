@@ -22,7 +22,7 @@ const Footer = () => {
           </a>
         </li>
         <li className={styles.icons}>
-          <a href="https://www.instagram.com/ij.code/" target='blank'>
+          <a href="https://www.instagram.com/ijcode_tecnologia/" target='blank'>
             <img src="./img/icons/insta.svg" alt="" />
           </a>
         </li>
